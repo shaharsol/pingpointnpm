@@ -1,12 +1,12 @@
 {
   "name": "pingpoint",
   "version": "0.0.1",
-  "description": "Sends PingPoint alerts",
+  "description": "PingPoint.io API for nodejs",
   "repository": {
     "type": "git",
     "url": "https://github.com/shaharsol/pingpointnpm.git"
   },
-  "license": "Artistic-2.0",
+  "license": "MIT",
   "dependencies": {
     "request": "^2.81.0"
   }
