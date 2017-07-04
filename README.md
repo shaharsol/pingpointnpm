@@ -11,8 +11,8 @@ npm install pingpoint
 ```
 
 ## Usage
-```
-var pingpont = require('pingpont');
+```js
+var pingpoint = require('pingpont');
 
 pingpoint.ping('YOUR_API_KEY','Important user signup',{
   name: 'Mark Zuckerberg'
