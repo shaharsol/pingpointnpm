@@ -6,7 +6,7 @@
 
 ## Installing
 
-```
+```js
 npm install pingpoint
 ```
 
