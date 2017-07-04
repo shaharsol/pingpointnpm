@@ -18,3 +18,18 @@ pingpoint.ping('YOUR_API_KEY','Important user signup',{
   name: 'Mark Zuckerberg'
 })
 ```
+
+You can also add a callback:
+```js
+var pingpoint = require('pingpoint');
+
+pingpoint.ping('YOUR_API_KEY','Important user signup',{
+  name: 'Mark Zuckerberg'
+},function(err){
+  if(err){
+    console.log(err);
+  }else{
+    // all is good
+  }
+})
+```
