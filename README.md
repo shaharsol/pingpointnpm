@@ -29,7 +29,7 @@ pingpoint.ping('YOUR_API_KEY','Important user signup',{
   if(err){
     console.log(err);
   }else{
-    // all is good
+    // ping was successful
   }
 })
 ```
