@@ -19,7 +19,7 @@ pingpoint.ping('YOUR_API_KEY','Important user signup',{
 })
 ```
 
-You can also add a callback:
+You can also add a callback to confirm the ping was successful:
 ```js
 var pingpoint = require('pingpoint');
 
